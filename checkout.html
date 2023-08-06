@@ -171,17 +171,15 @@
                 </div>
             </div>
         </header>
-        <!-- Page Banner Section Start -->
         <div class="page-banner-section section bg-gray">
             <div class="container">
                 <div class="row">
                     <div class="col">
-
                         <div class="page-banner text-center">
-                            <h1>Contact</h1>
+                            <h1>Check Out</h1>
                             <ul class="page-breadcrumb">
                                 <li><a href="index.html">Home</a></li>
-                                <li>Contact</li>
+                                <li>Check out</li>
                             </ul>
                         </div>
 
@@ -190,80 +188,184 @@
             </div>
         </div>
 
-        <!--Contact Map section start-->
-        <div class="contact-map-section section">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1346.5107053857876!2d106.67697876727259!3d10.726371847680781!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1688848442812!5m2!1svi!2s" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-        <!--Contact Map section End-->
 
-        <!--Contact section start-->
-        <div class="conact-section section pt-30 pt-lg-75 pt-md-65 pt-sm-55 pt-xs-45  pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
+        <!--Checkout section start-->
+        <div
+            class="checkout-section section pt-30 pt-lg-80 pt-md-70 pt-sm-60 pt-xs-50  pb-70 pb-lg-50 pb-md-40 pb-sm-30 pb-xs-20">
             <div class="container">
-
                 <div class="row">
-                    <div class="col-lg-3 col-12">
-                        <div class="contact-information">
-                            <h3>Contact Information</h3>
-                            <ul>
-                                <li>
-                                    <span class="icon"><i class="fa-regular fa-map"></i></span>
-                                    <span class="text"><span>C11/36 Phạm Hùng, H.Bình Chánh, TP.HCM</span></span>
-                                </li>
-                                <li>
-                                    <span class="icon"><i class="fa-solid fa-phone"></i></span>
-                                    <span class="text"><a href="#">0916475837</a></span>
-                                </li>
-                                <li>
-                                    <span class="icon"><i class="fa-regular fa-envelope-open"></i></span>
-                                    <span class="text"><a href="#">giangntps31300@fpt.edu.vn</a></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-9 col-12">
-                        <div class="contact-form-wrap">
-                            <h3 class="contact-title">Drop us a line</h3>
-                            <form id="contact-form" action="" method="post">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="con_name" placeholder="First Name*" type="text">
+                    <div class="col-12">
+
+                        <!-- Checkout Form Start-->
+                        <form action="#" class="checkout-form">
+                            <div class="row row-40">
+
+                                <div class="col-lg-7">
+
+                                    <!-- Billing Address -->
+                                    <div id="billing-form" class="mb-10">
+                                        <h4 class="checkout-title">Billing Address</h4>
+                                        <div class="row">
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Họ và tên*</label>
+                                                <input type="text" placeholder="Họ và tên">
+                                            </div>
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Email Address*</label>
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Phone no*</label>
+                                                <input type="text" placeholder="Số điện thoại">
+                                            </div>
+                                            <div class="col-12 mb-5">
+                                                <label>Address*</label>
+                                                <input type="text" placeholder="Nhập địa chỉ">
+                                            </div>
+                                            <div class="col-12 mb-5">
+                                                <div class="check-box">
+                                                    <input type="checkbox" id="shiping_address" data-shipping>
+                                                    <label for="shiping_address">Ship to Different Address</label>
+                                                </div>
+                                            </div>
+
                                         </div>
+
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="lastname" placeholder="Last Name*" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="con_email" placeholder="Email*" type="email">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="contact-form-style mb-20">
-                                            <input name="subject" placeholder="Subject*" type="text">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-12">
-                                        <div class="contact-form-style">
-                                            <textarea name="con_message" placeholder="Type your message here.."></textarea>
-                                            <button class="btn" type="submit"><span>Send message</span></button>
+
+                                    <!-- Shipping Address -->
+                                    <div id="shipping-form">
+                                        <h4 class="checkout-title">Shipping Address</h4>
+
+                                        <div class="row">
+
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Họ và tên*</label>
+                                                <input type="text" placeholder="Họ và tên">
+                                            </div>
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Email Address*</label>
+                                                <input type="email" placeholder="Email">
+                                            </div>
+                                            <div class="col-md-12 col-12 mb-5">
+                                                <label>Phone no*</label>
+                                                <input type="text" placeholder="Số điện thoại">
+                                            </div>
+                                            <div class="col-12 mb-5">
+                                                <label>Address*</label>
+                                                <input type="text" placeholder="Nhập địa chỉ">
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </form>
-                            <p class="form-messege"></p>
-                        </div>
+
+                                <div class="col-lg-5">
+                                    <div class="row">
+
+                                        <!-- Cart Total -->
+                                        <div class="col-12 mb-60">
+
+                                            <h4 class="checkout-title">Cart Total</h4>
+
+                                            <div class="checkout-cart-total">
+
+                                                <h4>Product <span>Total</span></h4>
+
+                                                <ul>
+                                                    <li>Teritory Quentily X 01 <span>$35.00</span></li>
+                                                    <li>Adurite Silocone X 02 <span>$59.00</span></li>
+                                                    <li>Baizidale Momone X 01 <span>$78.00</span></li>
+                                                    <li>Makorone Cicile X 01 <span>$65.00</span></li>
+                                                </ul>
+
+                                                <p>Sub Total <span>$296.00</span></p>
+                                                <p>Shipping Fee <span>$00.00</span></p>
+
+                                                <h4>Grand Total <span>$296.00</span></h4>
+
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Payment Method -->
+                                        <div class="col-12 mb-30">
+
+                                            <h4 class="checkout-title">Payment Method</h4>
+
+                                            <div class="checkout-payment-method">
+
+                                                <div class="single-method">
+                                                    <input type="radio" id="payment_check" name="payment-method"
+                                                        value="check">
+                                                    <label for="payment_check">Check Payment</label>
+                                                    <p data-method="check">Please send a Check to Store name with Store
+                                                        Street, Store Town, Store State, Store Postcode, Store Country.
+                                                    </p>
+                                                </div>
+
+                                                <div class="single-method">
+                                                    <input type="radio" id="payment_bank" name="payment-method"
+                                                        value="bank">
+                                                    <label for="payment_bank">Direct Bank Transfer</label>
+                                                    <p data-method="bank">Please send a Check to Store name with Store
+                                                        Street, Store Town, Store State, Store Postcode, Store Country.
+                                                    </p>
+                                                </div>
+
+                                                <div class="single-method">
+                                                    <input type="radio" id="payment_cash" name="payment-method"
+                                                        value="cash">
+                                                    <label for="payment_cash">Cash on Delivery</label>
+                                                    <p data-method="cash">Please send a Check to Store name with Store
+                                                        Street, Store Town, Store State, Store Postcode, Store Country.
+                                                    </p>
+                                                </div>
+
+                                                <div class="single-method">
+                                                    <input type="radio" id="payment_paypal" name="payment-method"
+                                                        value="paypal">
+                                                    <label for="payment_paypal">Paypal</label>
+                                                    <p data-method="paypal">Please send a Check to Store name with Store
+                                                        Street, Store Town, Store State, Store Postcode, Store Country.
+                                                    </p>
+                                                </div>
+
+                                                <div class="single-method">
+                                                    <input type="radio" id="payment_payoneer" name="payment-method"
+                                                        value="payoneer">
+                                                    <label for="payment_payoneer">Payoneer</label>
+                                                    <p data-method="payoneer">Please send a Check to Store name with
+                                                        Store Street, Store Town, Store State, Store Postcode, Store
+                                                        Country.</p>
+                                                </div>
+
+                                                <div class="single-method">
+                                                    <input type="checkbox" id="accept_terms">
+                                                    <label for="accept_terms">I’ve read and accept the terms &
+                                                        conditions</label>
+                                                </div>
+
+                                            </div>
+
+                                            <button class="place-order btn btn-lg btn-round">Place order</button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </form>
+
                     </div>
                 </div>
-
             </div>
         </div>
-        <!--Contact section end-->
+        <!--Checkout section end-->
 
         <!--Brand section start-->
-        <div class="brand-section section border-top pt-30 pt-lg-70 pt-md-65 pt-sm-55 pt-xs-40 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
+        <div
+            class="brand-section section border-top pt-90 pt-lg-70 pt-md-65 pt-sm-55 pt-xs-40 pb-100 pb-lg-80 pb-md-70 pb-sm-60 pb-xs-50">
             <div class="container">
                 <div class="row">
 
@@ -300,6 +402,8 @@
             </div>
         </div>
         <!--Brand section end-->
+
+
         <footer class="footer-section section bg-dark">
 
             <!--Footer Top start-->
